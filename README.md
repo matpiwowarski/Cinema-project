@@ -1,4 +1,5 @@
 # Projekt: Rezerwacja biletów do kina
+## UWAGA! Aby przetestować program należy zmienić datę na urządzeniu obsługującym program na Luty 2019, ponieważ projekt został zakończony i nie będzie aktualizowanego repertuaru kina.
 
 ## Aby uruchomić program:
 Oprócz posiadania Visual Studio, należy zainstalować również Obsługę języka C++/interfejsu CLI w instalatorze Visual Studio.
