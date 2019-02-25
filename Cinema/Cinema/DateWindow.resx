@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="QuitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAVtJREFUSEvt1rtKxEAAheGgNiKyCIulhRds7CxEEAtbK/GC+BA2Nm5nIwiCVouo
+        YKHY+QCCD2Bha+kLKAiizYLr5T+THYjJzKiTdHrgYzMhmbOXZDNJLn1o4gEfEd5wi0UEcwTXBL/VxhSc
+        6cIzXjGiHZHZhsr2zciRGnTAkxnFZx6a59yMHPkvUvqxh7oZpRnDPSotmobOuYMKbHQxbaWbxcQUzUDn
+        yGNn/G1CRQMYdliBLZIWVhGMr0j7X5CdMOQdDXjjKxpCfrKfOEYPCqm6SC7RjS+puki/1xoKqbJIV+As
+        nPEV6aOf4MrhBvkS3VPj8MZXFEr2PpJrDCKYskUX6IWNvnJnYoomoHN2oeeZzQbO0s1iYoqU0c6rzRw0
+        zx96HmkFpAO0biiTBWieUzPyRPeADtrBcgT9E+gS1xyb8GYJWgXpwDL0hvVTBDMJLZkOIxxgHXrEZ5Ik
+        n8VU6JGqtoyBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="QuitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 416</value>
+  </data>
+  <data name="QuitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Name" xml:space="preserve">
+    <value>QuitButton</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="logoPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="MCinema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MCinema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="MCinema.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MCinema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 67</value>
+  </data>
+  <data name="MCinema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="MCinema.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="MCinema.Text" xml:space="preserve">
+    <value>M Cinema</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Name" xml:space="preserve">
+    <value>MCinema</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;MCinema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Logo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="Logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 3</value>
+  </data>
+  <data name="Logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 68</value>
+  </data>
+  <data name="Logo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Logo.Name" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="&gt;&gt;Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Logo.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="logoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="logoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 94</value>
+  </data>
+  <data name="logoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Name" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ChooseDateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChooseDateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 48pt</value>
+  </data>
+  <data name="ChooseDateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChooseDateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 11</value>
+  </data>
+  <data name="ChooseDateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 83</value>
+  </data>
+  <data name="ChooseDateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ChooseDateLabel.Text" xml:space="preserve">
+    <value>Choose date</value>
+  </data>
+  <data name="&gt;&gt;ChooseDateLabel.Name" xml:space="preserve">
+    <value>ChooseDateLabel</value>
+  </data>
+  <data name="&gt;&gt;ChooseDateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseDateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChooseDateLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Day31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 225</value>
+  </data>
+  <data name="Day31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day31.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Day31.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Day31.Name" xml:space="preserve">
+    <value>Day31</value>
+  </data>
+  <data name="&gt;&gt;Day31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day31.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day31.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Day30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 225</value>
+  </data>
+  <data name="Day30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day30.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="Day30.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;Day30.Name" xml:space="preserve">
+    <value>Day30</value>
+  </data>
+  <data name="&gt;&gt;Day30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day30.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day30.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Day29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 225</value>
+  </data>
+  <data name="Day29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day29.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="Day29.Text" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Day29.Name" xml:space="preserve">
+    <value>Day29</value>
+  </data>
+  <data name="&gt;&gt;Day29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day29.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day29.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Day28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 179</value>
+  </data>
+  <data name="Day28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day28.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Day28.Text" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Day28.Name" xml:space="preserve">
+    <value>Day28</value>
+  </data>
+  <data name="&gt;&gt;Day28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day28.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day28.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Day27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 179</value>
+  </data>
+  <data name="Day27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day27.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="Day27.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Day27.Name" xml:space="preserve">
+    <value>Day27</value>
+  </data>
+  <data name="&gt;&gt;Day27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day27.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day27.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Day26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 179</value>
+  </data>
+  <data name="Day26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day26.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Day26.Text" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Day26.Name" xml:space="preserve">
+    <value>Day26</value>
+  </data>
+  <data name="&gt;&gt;Day26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day26.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day26.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 179</value>
+  </data>
+  <data name="Day25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day25.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="Day25.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Day25.Name" xml:space="preserve">
+    <value>Day25</value>
+  </data>
+  <data name="&gt;&gt;Day25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day25.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day25.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Day24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 179</value>
+  </data>
+  <data name="Day24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day24.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Day24.Text" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Day24.Name" xml:space="preserve">
+    <value>Day24</value>
+  </data>
+  <data name="&gt;&gt;Day24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day24.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day24.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Day23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 179</value>
+  </data>
+  <data name="Day23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day23.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Day23.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Day23.Name" xml:space="preserve">
+    <value>Day23</value>
+  </data>
+  <data name="&gt;&gt;Day23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day23.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day23.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Day22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 179</value>
+  </data>
+  <data name="Day22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day22.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Day22.Text" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Day22.Name" xml:space="preserve">
+    <value>Day22</value>
+  </data>
+  <data name="&gt;&gt;Day22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day22.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day22.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Day21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 133</value>
+  </data>
+  <data name="Day21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day21.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Day21.Text" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Day21.Name" xml:space="preserve">
+    <value>Day21</value>
+  </data>
+  <data name="&gt;&gt;Day21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day21.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day21.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Day20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 133</value>
+  </data>
+  <data name="Day20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day20.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="Day20.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Day20.Name" xml:space="preserve">
+    <value>Day20</value>
+  </data>
+  <data name="&gt;&gt;Day20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day20.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day20.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Day19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 133</value>
+  </data>
+  <data name="Day19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day19.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Day19.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Day19.Name" xml:space="preserve">
+    <value>Day19</value>
+  </data>
+  <data name="&gt;&gt;Day19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day19.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day19.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Day17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 133</value>
+  </data>
+  <data name="Day17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day17.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Day17.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Day17.Name" xml:space="preserve">
+    <value>Day17</value>
+  </data>
+  <data name="&gt;&gt;Day17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day17.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day17.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Day18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 133</value>
+  </data>
+  <data name="Day18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day18.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Day18.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Day18.Name" xml:space="preserve">
+    <value>Day18</value>
+  </data>
+  <data name="&gt;&gt;Day18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day18.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day18.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Day16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 133</value>
+  </data>
+  <data name="Day16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day16.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Day16.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Day16.Name" xml:space="preserve">
+    <value>Day16</value>
+  </data>
+  <data name="&gt;&gt;Day16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day16.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day16.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Day15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 133</value>
+  </data>
+  <data name="Day15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day15.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Day15.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Day15.Name" xml:space="preserve">
+    <value>Day15</value>
+  </data>
+  <data name="&gt;&gt;Day15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day15.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day15.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Day14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 87</value>
+  </data>
+  <data name="Day14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day14.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Day14.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Day14.Name" xml:space="preserve">
+    <value>Day14</value>
+  </data>
+  <data name="&gt;&gt;Day14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day14.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day14.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Day13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 87</value>
+  </data>
+  <data name="Day13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day13.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Day13.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Day13.Name" xml:space="preserve">
+    <value>Day13</value>
+  </data>
+  <data name="&gt;&gt;Day13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day13.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day13.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Day12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 87</value>
+  </data>
+  <data name="Day12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day12.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Day12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Day12.Name" xml:space="preserve">
+    <value>Day12</value>
+  </data>
+  <data name="&gt;&gt;Day12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day12.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Day11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 87</value>
+  </data>
+  <data name="Day11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day11.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Day11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Day11.Name" xml:space="preserve">
+    <value>Day11</value>
+  </data>
+  <data name="&gt;&gt;Day11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day11.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Day10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 87</value>
+  </data>
+  <data name="Day10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day10.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Day10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Day10.Name" xml:space="preserve">
+    <value>Day10</value>
+  </data>
+  <data name="&gt;&gt;Day10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day10.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Day9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 87</value>
+  </data>
+  <data name="Day9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day9.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Day9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Day9.Name" xml:space="preserve">
+    <value>Day9</value>
+  </data>
+  <data name="&gt;&gt;Day9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Day8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 87</value>
+  </data>
+  <data name="Day8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day8.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Day8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Day8.Name" xml:space="preserve">
+    <value>Day8</value>
+  </data>
+  <data name="&gt;&gt;Day8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day8.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="PreviousMonthButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAO2SURBVFhHtZdL
+        TxNRFMfnExjjQmNcuXNl/BKamLh0IUtBedXSdjpDBWOgvAoUAUHFpBokGjcmovGRIGpC4kJ5WOXRdzst
+        IEEt8igg0pbrPdPbltYz7fDwn/ySycy95386994zp5xazfRdOzbdw3dLVqPLbxZWvVcr4x7eRAC4hntS
+        m9EZusN3BR/qj7Jpe9f0ffEMDex2C5XErTepg46FOSGb7jQLs3PN3DMcCrbzIx4DYqASeDtSB/9J6tcf
+        ZGHVCTL314i/saC7wWcWIlKv/hQLn1vTNn0BrCkWaC94q8VYyKY/z2xwwS//H+ZJIIlAn+4ks8sUrJO/
+        VlzHJu4nfrO4BvuL2aYFGw6boITHWI3eV4PUaRxitgnBUdvJbg+2dZHN8AIJtXejz/PhFSq3MpZCPufI
+        QIyg9SaJra0RUHx9nYQ6bqHj8hG8YZyUzaHCqS0ywdZOEltNmIOikQhx1DSQSY0BHZ8LD/WUKyaUV2xA
+        NlJTG4mtRJg1NafXE9fryfDFUpkvJRXovFyEeoydHNR27OF2pEYriS6vMGsiL8GUuSllnuTzZQ1x6UQ0
+        BoZkFRwcfESwh0lk86VlZk1/OV0CzDzJSGEZcWgFNFY2UCE5r8mkWHgCDa0kurjErBMKfxwmM0+eysz2
+        vyBzrwb+5fUA+T4wSH4MvCXhoQ9k2vYAjQ9Fj3Pz+Ab0my3yUdsPzb95h+8Ro4koJgBnPba2zkLsTfOD
+        7+XlsWcnAQnkWoJEEuljB1q0f8143d+ev0wtiRJOS1tqj9iL00nIS5B3E9KzD+c9qcQmtKQC7gZ7iZa4
+        aGx5E0IbhRlvJ9DcnpEELM1UXTMaXC32Yi0JWHkHBz0cZpqNn56IzW3HMUbLsKOhBQ2uFket9hkXeFx9
+        BMoiZppNdhLxjQ3ibGlHg+cD6oXLKhyXvwc7+RglkkjUhq1olLjpxwgzyMe4Xrsom4OgE4IGEjPEgCT+
+        /AwTT+dtNLgafM2aC8w+IeheMTMlXHwVGS0sR4PnY0LQzDLbtKAlg2OBmSnhrBDJSFEZaqLEWEl53Gct
+        PcxsMwVdirdKjGFmSrgqKlW/iVGarKdJd47Z4YLWGbpXzEwJeBOjRbmTgDflrr9iYDa5NddrPOFvEJYw
+        MyWctA9QSmKsRBObaiw7y8Kr08Ij7QHoXtXWCMClo8txSZNhPi5UzCquuRrBvoAGUm0isCfGaGc0brjy
+        y2PRFrAwexdUTOjhaNGa8tUJEfkfFHzKKXAN9+BZ6C7fAWPZtDziuL8oGXMBCMV9DAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="PreviousMonthButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PreviousMonthButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PreviousMonthButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="PreviousMonthButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;PreviousMonthButton.Name" xml:space="preserve">
+    <value>PreviousMonthButton</value>
+  </data>
+  <data name="&gt;&gt;PreviousMonthButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PreviousMonthButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PreviousMonthButton.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="NextMonthButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOvSURBVFhHtZdL
+        TxNRFMfnExjjQmNcuXNl/BKamLh0IUtBeZXSdjotgjFQ3lAEBBWTapBo3JiIxkeCqAmJC+VhlUfpg3Za
+        QIIKUh5FpC3Xe6Z32tKedqYp/pNfUuZx/sd7zz1z5NTK96TmWOAe3yV2GGfm6oVNzzVz1MWbCQC/4Rrc
+        C/QZu+FZ9lr+crdoCyYNFb8nrmqIs5Ia6qsUcQtm4r9pnPYN6E6zMLlrzlp6dFKoXBy9XEpkxq/QJHTq
+        kgAgEbHbOLL6WHuIhVWnmaay8xMlmkiyeTyJonIyqzOhhpnwNgrBpX7jKRY+u1wNFYaxorI042SkJCpz
+        S8JTY4oEbPqLzAaXu1l3YVzBXGa8sFx1Tch4qk2RjHUBez5RUh7FzDIBK5XrSsxZ6GkZ1B9mtglNCZp9
+        BacWaSX4atQsE2IX/5nZxjTXqrmEBVeDu/sO+ftrhRZaO2qG4earSMCmO8vsOW5Sr13Dgivh6rpN9sJh
+        AtoNBnNKgjYtl2TutAonxwrVFV4qs22dJLqzIyUA2g2uq04CeoTUMR112udYcLU4GttIZHubpZBbEoG7
+        fA/ns/IOe7EWDa6WmfpWEgklkghvbhJfaydqmgzdhlkOjoWT/mEvyTMJSwsJb4VYCrEkxPZu1FjGaxG2
+        OOmrxi7YiyvjAWdbOsjC02dZ+f7iFVl6PRRnzf6N2ccUCYWIv6MnzVjGU1UV5VzG/RftJbEkloc/sDD5
+        CbYmYxL0U56WAPCVJrH89j0LkZ92V1bpUrekeUhAAslbkMy87SFZGflIfg69Iz+GhsnSm8RSJ7M4+DK+
+        JSufRpltTOG1IPFlORHSFkARYjdTcWgFkq1fzFia9xchPY5ikxWNJSMVoWgVHNhNDCedA77QyQgzh4KT
+        FV7fUDQHRKvRycEMh93MBtSIbD51o4GENzaZNS06+lts7kDfS2W+j+/l/I/0x6EtYg9kY1pjII7aRum8
+        y4rQLfArnP041HNh4PoJ6XsAAyT6kAIB+jGKsjYsnXnrLfQ5jPjHCARTikcw72EPKhHo7JWOWraGk4rb
+        QJf/gekcs48JplfsYTW4jTXo9Uz4O/kxZpvQwn3DEa/FFMJeOEi8daZtdCQDSVtBp1fsxYMAmt6+SQgT
+        jM7/Iwkwn7fpC5hNdon9+jNqO6QavLWmP4r/8lTBPsH0CgMkFlQNUO1QcFBfLGzugszhzELjwExQ4P+E
+        9J20o5aPoGPCDAdjFHxEYE9hdQD4Ddegt0N7jXc4RXHcP8DtcwF64t3BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="NextMonthButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, -1</value>
+  </data>
+  <data name="NextMonthButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 28</value>
+  </data>
+  <data name="NextMonthButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NextMonthButton.Name" xml:space="preserve">
+    <value>NextMonthButton</value>
+  </data>
+  <data name="&gt;&gt;NextMonthButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextMonthButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;NextMonthButton.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="YearLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="YearLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 15.75pt</value>
+  </data>
+  <data name="YearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, -1</value>
+  </data>
+  <data name="YearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="YearLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="YearLabel.Text" xml:space="preserve">
+    <value>2018</value>
+  </data>
+  <data name="&gt;&gt;YearLabel.Name" xml:space="preserve">
+    <value>YearLabel</value>
+  </data>
+  <data name="&gt;&gt;YearLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;YearLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;YearLabel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Day7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 41</value>
+  </data>
+  <data name="Day7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Day7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Day7.Name" xml:space="preserve">
+    <value>Day7</value>
+  </data>
+  <data name="&gt;&gt;Day7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day7.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Day6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 41</value>
+  </data>
+  <data name="Day6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Day6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Day6.Name" xml:space="preserve">
+    <value>Day6</value>
+  </data>
+  <data name="&gt;&gt;Day6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day6.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Day4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 41</value>
+  </data>
+  <data name="Day4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Day4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Day4.Name" xml:space="preserve">
+    <value>Day4</value>
+  </data>
+  <data name="&gt;&gt;Day4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day4.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Day3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 41</value>
+  </data>
+  <data name="Day3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Day3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Day3.Name" xml:space="preserve">
+    <value>Day3</value>
+  </data>
+  <data name="&gt;&gt;Day3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day3.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Day5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 41</value>
+  </data>
+  <data name="Day5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Day5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Day5.Name" xml:space="preserve">
+    <value>Day5</value>
+  </data>
+  <data name="&gt;&gt;Day5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day5.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day5.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Day2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 41</value>
+  </data>
+  <data name="Day2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Day2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Day2.Name" xml:space="preserve">
+    <value>Day2</value>
+  </data>
+  <data name="&gt;&gt;Day2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Day1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Day1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 41</value>
+  </data>
+  <data name="Day1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Day1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Day1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Day1.Name" xml:space="preserve">
+    <value>Day1</value>
+  </data>
+  <data name="&gt;&gt;Day1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Day1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Day1.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="MonthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MonthLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 15.75pt</value>
+  </data>
+  <data name="MonthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 0</value>
+  </data>
+  <data name="MonthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 28</value>
+  </data>
+  <data name="MonthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MonthLabel.Text" xml:space="preserve">
+    <value>Listopad</value>
+  </data>
+  <data name="&gt;&gt;MonthLabel.Name" xml:space="preserve">
+    <value>MonthLabel</value>
+  </data>
+  <data name="&gt;&gt;MonthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MonthLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;MonthLabel.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 118</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>405, 297</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CityLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CityLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 20.25pt</value>
+  </data>
+  <data name="CityLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 164</value>
+  </data>
+  <data name="CityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 35</value>
+  </data>
+  <data name="CityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CityLabel.Text" xml:space="preserve">
+    <value>CityName</value>
+  </data>
+  <data name="&gt;&gt;CityLabel.Name" xml:space="preserve">
+    <value>CityLabel</value>
+  </data>
+  <data name="&gt;&gt;CityLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CityLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CityLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4gsLAQcKmd+z1wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB0SURBVEhL
+        7ZRBCoAwDATzN0W/4F+89Bt+VI+6gS6EeN2AQgfm0sMutGls8HlatwQPvru7HyiJ4RdcoYwcvkAZMfyE
+        M5SRwycoI4a7B9xEvsLV1hc4pVdESh+Z5BLpmJJYIv9oJJdIVwWJJfJlR7zEHfwWswcfFWkdDbi5kQAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BackButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="BackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <data name="BackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
+    <value>BackButton</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BackButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cinema App</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DateWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

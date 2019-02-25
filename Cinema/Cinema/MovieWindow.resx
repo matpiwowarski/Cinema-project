@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="QuitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAVtJREFUSEvt1rtKxEAAheGgNiKyCIulhRds7CxEEAtbK/GC+BA2Nm5nIwiCVouo
+        YKHY+QCCD2Bha+kLKAiizYLr5T+THYjJzKiTdHrgYzMhmbOXZDNJLn1o4gEfEd5wi0UEcwTXBL/VxhSc
+        6cIzXjGiHZHZhsr2zciRGnTAkxnFZx6a59yMHPkvUvqxh7oZpRnDPSotmobOuYMKbHQxbaWbxcQUzUDn
+        yGNn/G1CRQMYdliBLZIWVhGMr0j7X5CdMOQdDXjjKxpCfrKfOEYPCqm6SC7RjS+puki/1xoKqbJIV+As
+        nPEV6aOf4MrhBvkS3VPj8MZXFEr2PpJrDCKYskUX6IWNvnJnYoomoHN2oeeZzQbO0s1iYoqU0c6rzRw0
+        zx96HmkFpAO0biiTBWieUzPyRPeADtrBcgT9E+gS1xyb8GYJWgXpwDL0hvVTBDMJLZkOIxxgHXrEZ5Ik
+        n8VU6JGqtoyBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="QuitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 416</value>
+  </data>
+  <data name="QuitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Name" xml:space="preserve">
+    <value>QuitButton</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4gsLAQcKmd+z1wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB0SURBVEhL
+        7ZRBCoAwDATzN0W/4F+89Bt+VI+6gS6EeN2AQgfm0sMutGls8HlatwQPvru7HyiJ4RdcoYwcvkAZMfyE
+        M5SRwycoI4a7B9xEvsLV1hc4pVdESh+Z5BLpmJJYIv9oJJdIVwWJJfJlR7zEHfwWswcfFWkdDbi5kQAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BackButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="BackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <data name="BackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
+    <value>BackButton</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BackButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="logoPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="&gt;&gt;MCinema.Name" xml:space="preserve">
+    <value>MCinema</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;MCinema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Logo.Name" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="&gt;&gt;Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Logo.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="logoPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="logoPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 94</value>
+  </data>
+  <data name="logoPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Name" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logoPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="MCinema.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MCinema.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="MCinema.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MCinema.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 67</value>
+  </data>
+  <data name="MCinema.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 19</value>
+  </data>
+  <data name="MCinema.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="MCinema.Text" xml:space="preserve">
+    <value>M Cinema</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Name" xml:space="preserve">
+    <value>MCinema</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MCinema.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;MCinema.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Logo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="Logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 3</value>
+  </data>
+  <data name="Logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 68</value>
+  </data>
+  <data name="Logo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Logo.Name" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="&gt;&gt;Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Logo.Parent" xml:space="preserve">
+    <value>logoPanel</value>
+  </data>
+  <data name="&gt;&gt;Logo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChooseMovieLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChooseMovieLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 48pt</value>
+  </data>
+  <data name="ChooseMovieLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChooseMovieLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 11</value>
+  </data>
+  <data name="ChooseMovieLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 83</value>
+  </data>
+  <data name="ChooseMovieLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ChooseMovieLabel.Text" xml:space="preserve">
+    <value>Choose a movie</value>
+  </data>
+  <data name="&gt;&gt;ChooseMovieLabel.Name" xml:space="preserve">
+    <value>ChooseMovieLabel</value>
+  </data>
+  <data name="&gt;&gt;ChooseMovieLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChooseMovieLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChooseMovieLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Name" xml:space="preserve">
+    <value>Movie1Button</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Name" xml:space="preserve">
+    <value>Movie1Label</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Name" xml:space="preserve">
+    <value>Movie1Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Movie1Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 114</value>
+  </data>
+  <data name="Movie1Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 257</value>
+  </data>
+  <data name="Movie1Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Movie1Panel.Name" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Movie1Panel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Movie1Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 9.75pt</value>
+  </data>
+  <data name="Movie1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="Movie1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 46</value>
+  </data>
+  <data name="Movie1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Movie1Button.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Name" xml:space="preserve">
+    <value>Movie1Button</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Movie1Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei Light, 14.25pt</value>
+  </data>
+  <data name="Movie1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 116</value>
+  </data>
+  <data name="Movie1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 92</value>
+  </data>
+  <data name="Movie1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Movie1Label.Text" xml:space="preserve">
+    <value>Movie1</value>
+  </data>
+  <data name="Movie1Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Name" xml:space="preserve">
+    <value>Movie1Label</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Movie1Pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Movie1Pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 110</value>
+  </data>
+  <data name="Movie1Pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Name" xml:space="preserve">
+    <value>Movie1Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.Parent" xml:space="preserve">
+    <value>Movie1Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie1Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Name" xml:space="preserve">
+    <value>Movie2Button</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Name" xml:space="preserve">
+    <value>Movie2Label</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Name" xml:space="preserve">
+    <value>Movie2Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Movie2Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 114</value>
+  </data>
+  <data name="Movie2Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 257</value>
+  </data>
+  <data name="Movie2Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Movie2Panel.Name" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Movie2Panel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Movie2Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 9.75pt</value>
+  </data>
+  <data name="Movie2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="Movie2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 46</value>
+  </data>
+  <data name="Movie2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Movie2Button.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Name" xml:space="preserve">
+    <value>Movie2Button</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Movie2Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei Light, 14.25pt</value>
+  </data>
+  <data name="Movie2Label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="Movie2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 92</value>
+  </data>
+  <data name="Movie2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Movie2Label.Text" xml:space="preserve">
+    <value>Movie2</value>
+  </data>
+  <data name="Movie2Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Name" xml:space="preserve">
+    <value>Movie2Label</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Movie2Pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie2Pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Movie2Pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 110</value>
+  </data>
+  <data name="Movie2Pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Name" xml:space="preserve">
+    <value>Movie2Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.Parent" xml:space="preserve">
+    <value>Movie2Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie2Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Name" xml:space="preserve">
+    <value>Movie3Button</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Name" xml:space="preserve">
+    <value>Movie3Label</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Name" xml:space="preserve">
+    <value>Movie3Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Movie3Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 114</value>
+  </data>
+  <data name="Movie3Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 257</value>
+  </data>
+  <data name="Movie3Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Movie3Panel.Name" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Movie3Panel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Movie3Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 9.75pt</value>
+  </data>
+  <data name="Movie3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie3Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="Movie3Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 46</value>
+  </data>
+  <data name="Movie3Button.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Movie3Button.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Name" xml:space="preserve">
+    <value>Movie3Button</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Movie3Label.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei Light, 14.25pt</value>
+  </data>
+  <data name="Movie3Label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="Movie3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 92</value>
+  </data>
+  <data name="Movie3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Movie3Label.Text" xml:space="preserve">
+    <value>Movie3</value>
+  </data>
+  <data name="Movie3Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Name" xml:space="preserve">
+    <value>Movie3Label</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Movie3Pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Movie3Pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Movie3Pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 110</value>
+  </data>
+  <data name="Movie3Pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Name" xml:space="preserve">
+    <value>Movie3Pic</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.Parent" xml:space="preserve">
+    <value>Movie3Panel</value>
+  </data>
+  <data name="&gt;&gt;Movie3Pic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dateLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dateLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI Light, 27.75pt</value>
+  </data>
+  <data name="dateLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dateLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 398</value>
+  </data>
+  <data name="dateLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 48</value>
+  </data>
+  <data name="dateLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="dateLabel.Text" xml:space="preserve">
+    <value>dd/mm/yyyy</value>
+  </data>
+  <data name="&gt;&gt;dateLabel.Name" xml:space="preserve">
+    <value>dateLabel</value>
+  </data>
+  <data name="&gt;&gt;dateLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dateLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="noMoviesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 40pt</value>
+  </data>
+  <data name="noMoviesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 114</value>
+  </data>
+  <data name="noMoviesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>609, 269</value>
+  </data>
+  <data name="noMoviesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="noMoviesLabel.Text" xml:space="preserve">
+    <value>No movies on this day </value>
+  </data>
+  <data name="noMoviesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;noMoviesLabel.Name" xml:space="preserve">
+    <value>noMoviesLabel</value>
+  </data>
+  <data name="&gt;&gt;noMoviesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;noMoviesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;noMoviesLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cinema App</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MovieWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,3154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="QuitButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAVtJREFUSEvt1rtKxEAAheGgNiKyCIulhRds7CxEEAtbK/GC+BA2Nm5nIwiCVouo
+        YKHY+QCCD2Bha+kLKAiizYLr5T+THYjJzKiTdHrgYzMhmbOXZDNJLn1o4gEfEd5wi0UEcwTXBL/VxhSc
+        6cIzXjGiHZHZhsr2zciRGnTAkxnFZx6a59yMHPkvUvqxh7oZpRnDPSotmobOuYMKbHQxbaWbxcQUzUDn
+        yGNn/G1CRQMYdliBLZIWVhGMr0j7X5CdMOQdDXjjKxpCfrKfOEYPCqm6SC7RjS+puki/1xoKqbJIV+As
+        nPEV6aOf4MrhBvkS3VPj8MZXFEr2PpJrDCKYskUX6IWNvnJnYoomoHN2oeeZzQbO0s1iYoqU0c6rzRw0
+        zx96HmkFpAO0biiTBWieUzPyRPeADtrBcgT9E+gS1xyb8GYJWgXpwDL0hvVTBDMJLZkOIxxgHXrEZ5Ik
+        n8VU6JGqtoyBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="QuitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>632, 416</value>
+  </data>
+  <data name="QuitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="QuitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Name" xml:space="preserve">
+    <value>QuitButton</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;QuitButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BackButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4gsLAQcKmd+z1wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAB0SURBVEhL
+        7ZRBCoAwDATzN0W/4F+89Bt+VI+6gS6EeN2AQgfm0sMutGls8HlatwQPvru7HyiJ4RdcoYwcvkAZMfyE
+        M5SRwycoI4a7B9xEvsLV1hc4pVdESh+Z5BLpmJJYIv9oJJdIVwWJJfJlR7zEHfwWswcfFWkdDbi5kQAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BackButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BackButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="BackButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 33</value>
+  </data>
+  <data name="BackButton.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Name" xml:space="preserve">
+    <value>BackButton</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BackButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ScreenLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ScreenLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 9</value>
+  </data>
+  <data name="ScreenLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>534, 15</value>
+  </data>
+  <data name="ScreenLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ScreenLabel.Text" xml:space="preserve">
+    <value>SCREEN</value>
+  </data>
+  <data name="ScreenLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ScreenLabel.Name" xml:space="preserve">
+    <value>ScreenLabel</value>
+  </data>
+  <data name="&gt;&gt;ScreenLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ScreenLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ScreenLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="a1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 12</value>
+  </data>
+  <data name="a1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="a1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;a1.Name" xml:space="preserve">
+    <value>a1</value>
+  </data>
+  <data name="&gt;&gt;a1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a1.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="a2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 12</value>
+  </data>
+  <data name="a2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="a2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;a2.Name" xml:space="preserve">
+    <value>a2</value>
+  </data>
+  <data name="&gt;&gt;a2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a2.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="a3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 12</value>
+  </data>
+  <data name="a3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="a3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;a3.Name" xml:space="preserve">
+    <value>a3</value>
+  </data>
+  <data name="&gt;&gt;a3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a3.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="a4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 12</value>
+  </data>
+  <data name="a4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="a4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;a4.Name" xml:space="preserve">
+    <value>a4</value>
+  </data>
+  <data name="&gt;&gt;a4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a4.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="a5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 12</value>
+  </data>
+  <data name="a5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a5.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="a5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;a5.Name" xml:space="preserve">
+    <value>a5</value>
+  </data>
+  <data name="&gt;&gt;a5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a5.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="a6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 12</value>
+  </data>
+  <data name="a6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a6.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="a6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;a6.Name" xml:space="preserve">
+    <value>a6</value>
+  </data>
+  <data name="&gt;&gt;a6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a6.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="a7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 12</value>
+  </data>
+  <data name="a7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a7.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="a7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;a7.Name" xml:space="preserve">
+    <value>a7</value>
+  </data>
+  <data name="&gt;&gt;a7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a7.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="a8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 12</value>
+  </data>
+  <data name="a8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a8.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="a8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;a8.Name" xml:space="preserve">
+    <value>a8</value>
+  </data>
+  <data name="&gt;&gt;a8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a8.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="a9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 12</value>
+  </data>
+  <data name="a9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a9.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="a9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;a9.Name" xml:space="preserve">
+    <value>a9</value>
+  </data>
+  <data name="&gt;&gt;a9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a9.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="a10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 12</value>
+  </data>
+  <data name="a10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a10.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="a10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;a10.Name" xml:space="preserve">
+    <value>a10</value>
+  </data>
+  <data name="&gt;&gt;a10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a10.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="a11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 12</value>
+  </data>
+  <data name="a11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a11.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="a11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;a11.Name" xml:space="preserve">
+    <value>a11</value>
+  </data>
+  <data name="&gt;&gt;a11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a11.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="a12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="a12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 12</value>
+  </data>
+  <data name="a12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="a12.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="a12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;a12.Name" xml:space="preserve">
+    <value>a12</value>
+  </data>
+  <data name="&gt;&gt;a12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;a12.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="GLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 237</value>
+  </data>
+  <data name="GLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="GLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="GLabel.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;GLabel.Name" xml:space="preserve">
+    <value>GLabel</value>
+  </data>
+  <data name="&gt;&gt;GLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GLabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;GLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 201</value>
+  </data>
+  <data name="FLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="FLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="FLabel.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;FLabel.Name" xml:space="preserve">
+    <value>FLabel</value>
+  </data>
+  <data name="&gt;&gt;FLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FLabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;FLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ELabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ELabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ELabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 165</value>
+  </data>
+  <data name="ELabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="ELabel.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="ELabel.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;ELabel.Name" xml:space="preserve">
+    <value>ELabel</value>
+  </data>
+  <data name="&gt;&gt;ELabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ELabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;ELabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, 129</value>
+  </data>
+  <data name="DLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="DLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="DLabel.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;DLabel.Name" xml:space="preserve">
+    <value>DLabel</value>
+  </data>
+  <data name="&gt;&gt;DLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DLabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;DLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 93</value>
+  </data>
+  <data name="CLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="CLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="CLabel.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;CLabel.Name" xml:space="preserve">
+    <value>CLabel</value>
+  </data>
+  <data name="&gt;&gt;CLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CLabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;CLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 57</value>
+  </data>
+  <data name="BLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="BLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="BLabel.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;BLabel.Name" xml:space="preserve">
+    <value>BLabel</value>
+  </data>
+  <data name="&gt;&gt;BLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BLabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;BLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ALabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ALabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ALabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 21</value>
+  </data>
+  <data name="ALabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="ALabel.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="ALabel.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;ALabel.Name" xml:space="preserve">
+    <value>ALabel</value>
+  </data>
+  <data name="&gt;&gt;ALabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ALabel.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;ALabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="G.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 237</value>
+  </data>
+  <data name="G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="G.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="G.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;G.Name" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;G.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;G.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="F.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="F.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 201</value>
+  </data>
+  <data name="F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="F.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="F.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;F.Name" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;F.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="E.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 165</value>
+  </data>
+  <data name="E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="E.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="E.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;E.Name" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;E.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;E.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="D.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 129</value>
+  </data>
+  <data name="D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="D.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="D.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;D.Name" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;D.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="C.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 93</value>
+  </data>
+  <data name="C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="C.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="C.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;C.Name" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;C.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="B.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 57</value>
+  </data>
+  <data name="B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="B.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="B.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;B.Name" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;B.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="A.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="A.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="A.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;A.Name" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;A.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="g9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 228</value>
+  </data>
+  <data name="g9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g9.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="g9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;g9.Name" xml:space="preserve">
+    <value>g9</value>
+  </data>
+  <data name="&gt;&gt;g9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="g8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 228</value>
+  </data>
+  <data name="g8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g8.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="g8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;g8.Name" xml:space="preserve">
+    <value>g8</value>
+  </data>
+  <data name="&gt;&gt;g8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="g7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 228</value>
+  </data>
+  <data name="g7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g7.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="g7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;g7.Name" xml:space="preserve">
+    <value>g7</value>
+  </data>
+  <data name="&gt;&gt;g7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="g15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 228</value>
+  </data>
+  <data name="g15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g15.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="g15.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;g15.Name" xml:space="preserve">
+    <value>g15</value>
+  </data>
+  <data name="&gt;&gt;g15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g15.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g15.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="g14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 228</value>
+  </data>
+  <data name="g14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g14.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="g14.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;g14.Name" xml:space="preserve">
+    <value>g14</value>
+  </data>
+  <data name="&gt;&gt;g14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g14.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g14.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="g13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 228</value>
+  </data>
+  <data name="g13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g13.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="g13.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;g13.Name" xml:space="preserve">
+    <value>g13</value>
+  </data>
+  <data name="&gt;&gt;g13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g13.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g13.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="g12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 228</value>
+  </data>
+  <data name="g12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g12.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="g12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;g12.Name" xml:space="preserve">
+    <value>g12</value>
+  </data>
+  <data name="&gt;&gt;g12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g12.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="g11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 228</value>
+  </data>
+  <data name="g11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g11.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="g11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;g11.Name" xml:space="preserve">
+    <value>g11</value>
+  </data>
+  <data name="&gt;&gt;g11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g11.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="g10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 228</value>
+  </data>
+  <data name="g10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g10.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="g10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;g10.Name" xml:space="preserve">
+    <value>g10</value>
+  </data>
+  <data name="&gt;&gt;g10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g10.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="f12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 192</value>
+  </data>
+  <data name="f12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f12.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="f12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;f12.Name" xml:space="preserve">
+    <value>f12</value>
+  </data>
+  <data name="&gt;&gt;f12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f12.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="f11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 192</value>
+  </data>
+  <data name="f11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f11.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="f11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;f11.Name" xml:space="preserve">
+    <value>f11</value>
+  </data>
+  <data name="&gt;&gt;f11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f11.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="f10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 192</value>
+  </data>
+  <data name="f10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f10.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="f10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;f10.Name" xml:space="preserve">
+    <value>f10</value>
+  </data>
+  <data name="&gt;&gt;f10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f10.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="f9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 192</value>
+  </data>
+  <data name="f9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f9.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="f9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;f9.Name" xml:space="preserve">
+    <value>f9</value>
+  </data>
+  <data name="&gt;&gt;f9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f9.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="f8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 192</value>
+  </data>
+  <data name="f8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f8.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="f8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;f8.Name" xml:space="preserve">
+    <value>f8</value>
+  </data>
+  <data name="&gt;&gt;f8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f8.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="f7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 192</value>
+  </data>
+  <data name="f7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f7.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="f7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;f7.Name" xml:space="preserve">
+    <value>f7</value>
+  </data>
+  <data name="&gt;&gt;f7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f7.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="e12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 156</value>
+  </data>
+  <data name="e12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e12.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="e12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;e12.Name" xml:space="preserve">
+    <value>e12</value>
+  </data>
+  <data name="&gt;&gt;e12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e12.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="e11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 156</value>
+  </data>
+  <data name="e11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e11.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="e11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;e11.Name" xml:space="preserve">
+    <value>e11</value>
+  </data>
+  <data name="&gt;&gt;e11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e11.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="e10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 156</value>
+  </data>
+  <data name="e10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e10.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="e10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;e10.Name" xml:space="preserve">
+    <value>e10</value>
+  </data>
+  <data name="&gt;&gt;e10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e10.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="e9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 156</value>
+  </data>
+  <data name="e9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e9.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="e9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;e9.Name" xml:space="preserve">
+    <value>e9</value>
+  </data>
+  <data name="&gt;&gt;e9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e9.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="e8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 156</value>
+  </data>
+  <data name="e8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e8.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="e8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;e8.Name" xml:space="preserve">
+    <value>e8</value>
+  </data>
+  <data name="&gt;&gt;e8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e8.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="e7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 156</value>
+  </data>
+  <data name="e7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e7.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="e7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;e7.Name" xml:space="preserve">
+    <value>e7</value>
+  </data>
+  <data name="&gt;&gt;e7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e7.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="d12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 120</value>
+  </data>
+  <data name="d12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d12.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="d12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;d12.Name" xml:space="preserve">
+    <value>d12</value>
+  </data>
+  <data name="&gt;&gt;d12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d12.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="d11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 120</value>
+  </data>
+  <data name="d11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d11.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="d11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;d11.Name" xml:space="preserve">
+    <value>d11</value>
+  </data>
+  <data name="&gt;&gt;d11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d11.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="d10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 120</value>
+  </data>
+  <data name="d10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d10.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="d10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;d10.Name" xml:space="preserve">
+    <value>d10</value>
+  </data>
+  <data name="&gt;&gt;d10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d10.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="d9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 120</value>
+  </data>
+  <data name="d9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d9.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="d9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;d9.Name" xml:space="preserve">
+    <value>d9</value>
+  </data>
+  <data name="&gt;&gt;d9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d9.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="d8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 120</value>
+  </data>
+  <data name="d8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d8.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="d8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;d8.Name" xml:space="preserve">
+    <value>d8</value>
+  </data>
+  <data name="&gt;&gt;d8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d8.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="d7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 120</value>
+  </data>
+  <data name="d7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d7.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="d7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;d7.Name" xml:space="preserve">
+    <value>d7</value>
+  </data>
+  <data name="&gt;&gt;d7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d7.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="c12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 84</value>
+  </data>
+  <data name="c12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c12.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="c12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;c12.Name" xml:space="preserve">
+    <value>c12</value>
+  </data>
+  <data name="&gt;&gt;c12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c12.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="c11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 84</value>
+  </data>
+  <data name="c11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c11.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="c11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;c11.Name" xml:space="preserve">
+    <value>c11</value>
+  </data>
+  <data name="&gt;&gt;c11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c11.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="c10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 84</value>
+  </data>
+  <data name="c10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c10.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="c10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;c10.Name" xml:space="preserve">
+    <value>c10</value>
+  </data>
+  <data name="&gt;&gt;c10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c10.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="c9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 84</value>
+  </data>
+  <data name="c9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c9.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="c9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;c9.Name" xml:space="preserve">
+    <value>c9</value>
+  </data>
+  <data name="&gt;&gt;c9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c9.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="c8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 84</value>
+  </data>
+  <data name="c8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c8.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="c8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;c8.Name" xml:space="preserve">
+    <value>c8</value>
+  </data>
+  <data name="&gt;&gt;c8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c8.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="c7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 84</value>
+  </data>
+  <data name="c7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c7.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="c7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;c7.Name" xml:space="preserve">
+    <value>c7</value>
+  </data>
+  <data name="&gt;&gt;c7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c7.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="b12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 48</value>
+  </data>
+  <data name="b12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b12.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="b12.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;b12.Name" xml:space="preserve">
+    <value>b12</value>
+  </data>
+  <data name="&gt;&gt;b12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b12.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b12.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="b11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 48</value>
+  </data>
+  <data name="b11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b11.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="b11.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;b11.Name" xml:space="preserve">
+    <value>b11</value>
+  </data>
+  <data name="&gt;&gt;b11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b11.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b11.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="b10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 48</value>
+  </data>
+  <data name="b10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b10.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="b10.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;b10.Name" xml:space="preserve">
+    <value>b10</value>
+  </data>
+  <data name="&gt;&gt;b10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b10.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b10.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="b9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 48</value>
+  </data>
+  <data name="b9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b9.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="b9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;b9.Name" xml:space="preserve">
+    <value>b9</value>
+  </data>
+  <data name="&gt;&gt;b9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b9.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b9.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="b8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 48</value>
+  </data>
+  <data name="b8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b8.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="b8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;b8.Name" xml:space="preserve">
+    <value>b8</value>
+  </data>
+  <data name="&gt;&gt;b8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b8.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b8.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="b7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 48</value>
+  </data>
+  <data name="b7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b7.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="b7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;b7.Name" xml:space="preserve">
+    <value>b7</value>
+  </data>
+  <data name="&gt;&gt;b7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b7.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b7.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="g6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 228</value>
+  </data>
+  <data name="g6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g6.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="g6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;g6.Name" xml:space="preserve">
+    <value>g6</value>
+  </data>
+  <data name="&gt;&gt;g6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g6.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="g5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 228</value>
+  </data>
+  <data name="g5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g5.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="g5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;g5.Name" xml:space="preserve">
+    <value>g5</value>
+  </data>
+  <data name="&gt;&gt;g5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g5.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="g4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 228</value>
+  </data>
+  <data name="g4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g4.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="g4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;g4.Name" xml:space="preserve">
+    <value>g4</value>
+  </data>
+  <data name="&gt;&gt;g4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g4.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="g3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 228</value>
+  </data>
+  <data name="g3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g3.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="g3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;g3.Name" xml:space="preserve">
+    <value>g3</value>
+  </data>
+  <data name="&gt;&gt;g3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g3.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="g2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 228</value>
+  </data>
+  <data name="g2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g2.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="g2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;g2.Name" xml:space="preserve">
+    <value>g2</value>
+  </data>
+  <data name="&gt;&gt;g2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g2.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="g1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="g1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 228</value>
+  </data>
+  <data name="g1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="g1.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="g1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;g1.Name" xml:space="preserve">
+    <value>g1</value>
+  </data>
+  <data name="&gt;&gt;g1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;g1.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="f6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 192</value>
+  </data>
+  <data name="f6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f6.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="f6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;f6.Name" xml:space="preserve">
+    <value>f6</value>
+  </data>
+  <data name="&gt;&gt;f6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f6.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="f5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 192</value>
+  </data>
+  <data name="f5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f5.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="f5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;f5.Name" xml:space="preserve">
+    <value>f5</value>
+  </data>
+  <data name="&gt;&gt;f5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f5.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="f4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 192</value>
+  </data>
+  <data name="f4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f4.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="f4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;f4.Name" xml:space="preserve">
+    <value>f4</value>
+  </data>
+  <data name="&gt;&gt;f4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f4.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="f3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 192</value>
+  </data>
+  <data name="f3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f3.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="f3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;f3.Name" xml:space="preserve">
+    <value>f3</value>
+  </data>
+  <data name="&gt;&gt;f3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f3.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="f2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 192</value>
+  </data>
+  <data name="f2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f2.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="f2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;f2.Name" xml:space="preserve">
+    <value>f2</value>
+  </data>
+  <data name="&gt;&gt;f2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f2.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="f1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="f1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 192</value>
+  </data>
+  <data name="f1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="f1.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="f1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;f1.Name" xml:space="preserve">
+    <value>f1</value>
+  </data>
+  <data name="&gt;&gt;f1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;f1.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="e6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 156</value>
+  </data>
+  <data name="e6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e6.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="e6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;e6.Name" xml:space="preserve">
+    <value>e6</value>
+  </data>
+  <data name="&gt;&gt;e6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e6.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="e5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 156</value>
+  </data>
+  <data name="e5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e5.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="e5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;e5.Name" xml:space="preserve">
+    <value>e5</value>
+  </data>
+  <data name="&gt;&gt;e5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e5.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="e4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 156</value>
+  </data>
+  <data name="e4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e4.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="e4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;e4.Name" xml:space="preserve">
+    <value>e4</value>
+  </data>
+  <data name="&gt;&gt;e4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e4.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="e3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 156</value>
+  </data>
+  <data name="e3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e3.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="e3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;e3.Name" xml:space="preserve">
+    <value>e3</value>
+  </data>
+  <data name="&gt;&gt;e3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e3.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="e2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 156</value>
+  </data>
+  <data name="e2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e2.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="e2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;e2.Name" xml:space="preserve">
+    <value>e2</value>
+  </data>
+  <data name="&gt;&gt;e2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e2.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="e1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="e1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 156</value>
+  </data>
+  <data name="e1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="e1.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="e1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;e1.Name" xml:space="preserve">
+    <value>e1</value>
+  </data>
+  <data name="&gt;&gt;e1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;e1.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="d6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 120</value>
+  </data>
+  <data name="d6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d6.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="d6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;d6.Name" xml:space="preserve">
+    <value>d6</value>
+  </data>
+  <data name="&gt;&gt;d6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d6.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="d5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 120</value>
+  </data>
+  <data name="d5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d5.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="d5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;d5.Name" xml:space="preserve">
+    <value>d5</value>
+  </data>
+  <data name="&gt;&gt;d5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d5.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="d4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 120</value>
+  </data>
+  <data name="d4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d4.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="d4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;d4.Name" xml:space="preserve">
+    <value>d4</value>
+  </data>
+  <data name="&gt;&gt;d4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d4.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="d3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 120</value>
+  </data>
+  <data name="d3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d3.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="d3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;d3.Name" xml:space="preserve">
+    <value>d3</value>
+  </data>
+  <data name="&gt;&gt;d3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d3.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="d2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 120</value>
+  </data>
+  <data name="d2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d2.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="d2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;d2.Name" xml:space="preserve">
+    <value>d2</value>
+  </data>
+  <data name="&gt;&gt;d2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d2.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="d1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="d1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 120</value>
+  </data>
+  <data name="d1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="d1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="d1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;d1.Name" xml:space="preserve">
+    <value>d1</value>
+  </data>
+  <data name="&gt;&gt;d1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;d1.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="c6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 84</value>
+  </data>
+  <data name="c6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c6.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="c6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;c6.Name" xml:space="preserve">
+    <value>c6</value>
+  </data>
+  <data name="&gt;&gt;c6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c6.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="c5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 84</value>
+  </data>
+  <data name="c5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c5.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="c5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;c5.Name" xml:space="preserve">
+    <value>c5</value>
+  </data>
+  <data name="&gt;&gt;c5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c5.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="c4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 84</value>
+  </data>
+  <data name="c4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c4.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="c4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;c4.Name" xml:space="preserve">
+    <value>c4</value>
+  </data>
+  <data name="&gt;&gt;c4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c4.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="c3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 84</value>
+  </data>
+  <data name="c3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="c3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;c3.Name" xml:space="preserve">
+    <value>c3</value>
+  </data>
+  <data name="&gt;&gt;c3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c3.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="c2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 84</value>
+  </data>
+  <data name="c2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="c2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;c2.Name" xml:space="preserve">
+    <value>c2</value>
+  </data>
+  <data name="&gt;&gt;c2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c2.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="c1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="c1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 84</value>
+  </data>
+  <data name="c1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="c1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="c1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;c1.Name" xml:space="preserve">
+    <value>c1</value>
+  </data>
+  <data name="&gt;&gt;c1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;c1.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="b6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 48</value>
+  </data>
+  <data name="b6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="b6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;b6.Name" xml:space="preserve">
+    <value>b6</value>
+  </data>
+  <data name="&gt;&gt;b6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b6.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b6.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="b5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 48</value>
+  </data>
+  <data name="b5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b5.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="b5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;b5.Name" xml:space="preserve">
+    <value>b5</value>
+  </data>
+  <data name="&gt;&gt;b5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b5.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b5.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="b4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 48</value>
+  </data>
+  <data name="b4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="b4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;b4.Name" xml:space="preserve">
+    <value>b4</value>
+  </data>
+  <data name="&gt;&gt;b4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b4.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b4.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="b3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 48</value>
+  </data>
+  <data name="b3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="b3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;b3.Name" xml:space="preserve">
+    <value>b3</value>
+  </data>
+  <data name="&gt;&gt;b3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b3.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b3.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="b2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 48</value>
+  </data>
+  <data name="b2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b2.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="b2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;b2.Name" xml:space="preserve">
+    <value>b2</value>
+  </data>
+  <data name="&gt;&gt;b2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b2.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b2.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="b1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="b1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 48</value>
+  </data>
+  <data name="b1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="b1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="b1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;b1.Name" xml:space="preserve">
+    <value>b1</value>
+  </data>
+  <data name="&gt;&gt;b1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b1.Parent" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;b1.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="SeatsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 73</value>
+  </data>
+  <data name="SeatsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>565, 296</value>
+  </data>
+  <data name="SeatsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;SeatsPanel.Name" xml:space="preserve">
+    <value>SeatsPanel</value>
+  </data>
+  <data name="&gt;&gt;SeatsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeatsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SeatsPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NextButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 15.75pt</value>
+  </data>
+  <data name="NextButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 401</value>
+  </data>
+  <data name="NextButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 48</value>
+  </data>
+  <data name="NextButton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="NextButton.Text" xml:space="preserve">
+    <value>NEXT</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Name" xml:space="preserve">
+    <value>NextButton</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NextButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BillLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt</value>
+  </data>
+  <data name="BillLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 417</value>
+  </data>
+  <data name="BillLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="BillLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BillLabel.Text" xml:space="preserve">
+    <value>Bill:</value>
+  </data>
+  <data name="BillLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;BillLabel.Name" xml:space="preserve">
+    <value>BillLabel</value>
+  </data>
+  <data name="&gt;&gt;BillLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BillLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BillLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PriceLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt</value>
+  </data>
+  <data name="PriceLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 417</value>
+  </data>
+  <data name="PriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="PriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="PriceLabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PriceLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;PriceLabel.Name" xml:space="preserve">
+    <value>PriceLabel</value>
+  </data>
+  <data name="&gt;&gt;PriceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PriceLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PriceLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DollarLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt</value>
+  </data>
+  <data name="DollarLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DollarLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 417</value>
+  </data>
+  <data name="DollarLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="DollarLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="DollarLabel.Text" xml:space="preserve">
+    <value>$</value>
+  </data>
+  <data name="DollarLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;DollarLabel.Name" xml:space="preserve">
+    <value>DollarLabel</value>
+  </data>
+  <data name="&gt;&gt;DollarLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DollarLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DollarLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 461</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cinema App</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CinemaHallWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
